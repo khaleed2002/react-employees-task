@@ -1,0 +1,175 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    /* Ensure the modal is on top */
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh;
+    /* Limit the modal height to 80% of the viewport height */
+    overflow-y: auto;
+    /* Enable vertical scrolling if content exceeds the max-height */
+    position: relative;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.modal-header h2 {
+    color: #23aaeb;
+    margin: 0;
+    font-size: 18px;
+    font-family: Roboto;
+    line-height: 1.22;
+    letter-spacing: 0.99px;
+}
+
+
+.header-line {
+    border: none;
+    border-top: 1px solid #23aaeb;
+    margin: 10px 0;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section h3 {
+    color: #23aaeb;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+}
+
+.section-line {
+    border: none;
+    border-top: 2px solid #23aaeb;
+    width: 44px;
+    margin: 10px 0;
+}
+
+.personal-info,
+.office-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-upload {
+    flex: 1 1 100px;
+    border: 2px dashed #d2d2d2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d2d2d2;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 2;
+}
+
+.modal-overlay input,
+.modal-overlay select {
+    flex: 1 1 calc(50% - 10px);
+    padding: 10px;
+    border: 1px solid #d2d2d2;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    background-color: #2764ac;
+}
+
+.work-from-home {
+    align-items: center;
+}
+
+.work-from-home label {
+
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.31;
+    letter-spacing: normal;
+    color: #313030;
+}
+
+.footer-line {
+    border: none;
+    border-top: 1px solid #d2d2d2;
+    margin: 20px 0;
+}
+
+.modal-footer {
+    display: flex;
+    gap: 14px;
+    flex-direction: row-reverse;
+}
+
+.cancel-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-button {
+    background-color: #23aaeb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-field-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.input-group label {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    color: #313030;
+}

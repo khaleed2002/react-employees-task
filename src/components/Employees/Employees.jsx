@@ -2,12 +2,12 @@ import AddEmployeeForm from "./AddEmployeeForm"
 import EmployeesList from "./EmployeesList"
 import SearchForm from "./SearchForm"
 
-const Employees = () => {
+const Employees = ({ toggleModal }) => {
     return (
         <div className="employees-container">
             <div className="form-container">
                 <SearchForm />
-                <AddEmployeeForm />
+                <AddEmployeeForm toggleModal={toggleModal} />
             </div>
             <EmployeesList />
         </div>
