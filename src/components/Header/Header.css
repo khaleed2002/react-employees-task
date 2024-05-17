@@ -1,0 +1,85 @@
+.header {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: Roboto;
+}
+
+.authentication {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 12.5px;
+    padding: 0.5rem;
+}
+
+
+.authentication .notification {
+    border-right: solid 0.5px #e8e4e4;
+    border-left: solid 0.5px #e8e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.notification-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.notification-icon {
+    width: 20px;
+    height: 20px;
+
+
+}
+
+.profile {
+    color: #8997a4;
+    align-items: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+}
+
+.profile img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.profile .profile-icon {
+    width: 12px;
+    height: 7.4px;
+}
+
+.profile .profile-name {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.sign-in-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn.sign-in {
+    background-color: #27b40c;
+}
+
+.date-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.date-container p {
+    font-size: 15px;
+    line-height: 1.2;
+    letter-spacing: 0.83px;
+    color: #474747;
+}

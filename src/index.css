@@ -18,3 +18,21 @@ body {
   font-weight: 400;
   line-height: 1;
 }
+
+.btn {
+  width: 94px;
+  height: 27px;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.content-wrapper {
+  flex: 1;
+}
