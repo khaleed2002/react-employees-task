@@ -1,7 +1,6 @@
 import AddEmployeeForm from "./AddEmployeeForm"
 import EmployeesList from "./EmployeesList"
 import SearchForm from "./SearchForm"
-
 const Employees = ({ toggleModal }) => {
     return (
         <div className="employees-container">
