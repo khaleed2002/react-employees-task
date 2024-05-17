@@ -9,6 +9,7 @@
     flex-direction: row-reverse;
     gap: 12.5px;
     padding: 0.5rem;
+    flex-wrap: wrap;
 }
 
 

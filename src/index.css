@@ -19,6 +19,11 @@ body {
   line-height: 1;
 }
 
+button {
+  cursor: pointer;
+  border: 0;
+}
+
 .btn {
   width: 94px;
   height: 27px;
@@ -35,4 +40,6 @@ body {
 
 .content-wrapper {
   flex: 1;
+  padding-right: 1rem;
+  margin-left: 106px;
 }

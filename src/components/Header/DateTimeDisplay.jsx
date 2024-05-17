@@ -22,7 +22,7 @@ const DateTimeDisplay = () => {
         hour12: true,
     };
 
-    const formattedDateTime = dateTime.toLocaleString('en-US', options);
+    const formattedDateTime = dateTime?.toLocaleString('en-US', options);
 
     return (
         <p>
