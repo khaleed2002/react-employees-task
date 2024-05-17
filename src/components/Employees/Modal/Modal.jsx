@@ -2,11 +2,33 @@ import ReactDOM from 'react-dom';
 import './Modal.css';
 import InputField from './InputField';
 import SelectField from './SelectField';
+import getFormValues from '../../../utils/getFormValues';
+import { useAppContext } from '../../../App'
+import empPic from "../../../assets/profile.jpg"
+import { nanoid } from 'nanoid';
 
 const Modal = ({ onClose }) => {
+    const { setEmployees } = useAppContext()
+    const handleFormSubmit = (e) => {
+        e.preventDefault()
+        const { isEmpty, data } = getFormValues(e.currentTarget)
+        if (isEmpty) {
+            console.log("Should provide all values!");
+            return
+        }
+        const newEmployee = { ...data, id: nanoid(), empPic }
+        console.log(newEmployee);
+        setEmployees((employees) => {
+            const newEmployees = [...employees, newEmployee]
+            return newEmployees
+        })
+        e.currentTarget.reset()
+        onClose()
+    }
+
     return ReactDOM.createPortal(
         <div className="modal-overlay">
-            <div className="modal-content">
+            <form className="modal-content" onSubmit={handleFormSubmit}>
                 <div className="modal-header">
                     <h2>NEW EMPLOYEE</h2>
                 </div>
@@ -33,14 +55,14 @@ const Modal = ({ onClose }) => {
                         </select>
                         <div className="input-group">
                             <SelectField name={"department"} label={"Department"} options={["Bussiness Development", "IT"]} required={true} />
-                            <SelectField name={"attendance"} label={"Attendance Profile"} options={["Attendance Profile"]} required={true} />
+                            <SelectField name={"status"} label={"Attendance Profile"} options={["present", "absent", "weekend", "holiday"]} required={true} />
                         </div>
                         <div className="input-group">
 
                             <SelectField name={"role"} label={"Role"} options={["HR Manager", "Software Engineer"]} required={true} />
                             <SelectField name={"position"} label={"Position"} options={["HR Manager", "Software Engineer"]} required={true} />
                         </div>
-                        <SelectField name={"direct_manager"} label={"Direct Manager"} options={["Abdelrahman", "Abdelrahman"]} required={true} />
+                        <SelectField name={"direct_manager"} label={"Direct Manager"} options={["Abdelrahman", "Mona"]} required={true} />
                     </div>
                 </div>
                 <div className="section">
@@ -53,10 +75,10 @@ const Modal = ({ onClose }) => {
                 </div>
                 <hr className="footer-line" />
                 <div className="modal-footer">
-                    <button className="save-button">Save</button>
+                    <button type="submit" className="save-button">Save</button>
                     <button className="cancel-button" onClick={onClose}>Cancel</button>
                 </div>
-            </div>
+            </form>
         </div>,
         document.getElementById('modal-root')
     );
