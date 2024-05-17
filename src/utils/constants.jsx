@@ -34,6 +34,7 @@ export const sidebarItems = [
 
 export const employees = [
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -43,6 +44,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -52,6 +54,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -61,6 +64,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -70,6 +74,7 @@ export const employees = [
         empPic
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -79,6 +84,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -88,6 +94,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -97,6 +104,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -106,6 +114,7 @@ export const employees = [
         empPic
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -115,6 +124,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -124,6 +134,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -133,6 +144,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -142,6 +154,7 @@ export const employees = [
         empPic
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -151,6 +164,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -160,6 +174,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -169,6 +184,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -178,6 +194,7 @@ export const employees = [
         empPic
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -187,6 +204,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -196,6 +214,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -205,6 +224,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -214,6 +234,7 @@ export const employees = [
         empPic
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -223,6 +244,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -232,6 +254,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -241,6 +264,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -250,6 +274,7 @@ export const employees = [
         empPic
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -259,6 +284,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -268,6 +294,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -277,6 +304,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -286,6 +314,7 @@ export const employees = [
         empPic
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -295,6 +324,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -304,6 +334,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -313,6 +344,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -322,6 +354,7 @@ export const employees = [
         empPic
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -331,6 +364,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -340,6 +374,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -349,6 +384,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -358,6 +394,7 @@ export const employees = [
         empPic
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -367,6 +404,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -376,6 +414,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -385,6 +424,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -394,6 +434,7 @@ export const employees = [
         empPic
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -403,6 +444,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -412,6 +454,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -421,6 +464,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -430,6 +474,7 @@ export const employees = [
         empPic
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -439,6 +484,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -448,6 +494,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -457,6 +504,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -466,6 +514,7 @@ export const employees = [
         empPic
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -475,6 +524,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -484,6 +534,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -493,6 +544,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -502,6 +554,7 @@ export const employees = [
         empPic
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -511,6 +564,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -520,6 +574,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -529,6 +584,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -538,6 +594,7 @@ export const employees = [
         empPic
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -547,6 +604,7 @@ export const employees = [
         status: "present"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -556,6 +614,7 @@ export const employees = [
         status: "absent"
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",
@@ -565,6 +624,7 @@ export const employees = [
         status: "weekend",
     },
     {
+        id: nanoid(),
         name: "Khaled Abdelrahman",
         startDate: new Date(2020, 10, 17),
         email: "khaled@gmail.com",

@@ -1,7 +1,13 @@
 import { IoMdInformation } from 'react-icons/io';
 import { MdEdit, MdOutlinePauseCircleOutline, MdDeleteForever, MdMail, MdCallEnd } from "react-icons/md";
-
-const EmployeeCard = ({ name, position, department, empPic, status }) => {
+import { useAppContext } from '../../App';
+const EmployeeCard = ({ name, position, department, empPic, status, id }) => {
+    const { setEmployees } = useAppContext()
+    const handleDeleteButton = () => {
+        setEmployees((employees) => {
+            return employees?.filter((emp) => emp.id !== id)
+        })
+    }
     return (
         <div className="employee-card">
             <div className="left-handside-container">
@@ -15,7 +21,7 @@ const EmployeeCard = ({ name, position, department, empPic, status }) => {
                     <button className="pause">
                         <MdOutlinePauseCircleOutline className="button-icon" />
                     </button>
-                    <button className="delete">
+                    <button className="delete" onClick={handleDeleteButton}>
                         <MdDeleteForever className="button-icon" />
                     </button>
                 </div>
